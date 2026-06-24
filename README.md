@@ -125,6 +125,32 @@ ERROR Count   : 2
 
 CSV report generated successfully
 
+---
+
+### Version 5 - Refactored Log Analyzer with Unit Testing Support
+
+File:
+
+log_analyzer_v5.py
+
+Additional Features:
+- Refactored logic into reusable function
+- Improved code maintainability
+- Supports automated testing
+- Follows Python best practices
+
+Sample Function:
+
+analyze_log("application.log")
+
+Returns:
+(3, 1, 2)
+
+Where:
+- INFO Count = 3
+- WARNING Count = 1
+- ERROR Count = 2
+
 ## Execution Steps
 
 Run Version 1:
@@ -141,6 +167,54 @@ python log_analyzer_v3.py
 
 Run Version 4:
 python log_analyzer_v4.py
+
+Run Version 5:
+python log_analyzer_v5.py
+
+---
+
+
+## Unit Testing
+
+File:
+
+test_log_analyzer.py
+
+Purpose:
+
+Validates that the log analyzer produces expected results.
+
+Test Cases:
+
+```python
+assert info == 3
+assert warning == 1
+assert error == 2
+```
+
+Expected Output:
+
+```text
+All tests passed successfully
+```
+
+Benefits:
+
+- Detects code regressions
+- Validates application behavior
+- Improves software reliability
+
+---
+
+## Version History
+
+| Version | Description |
+|----------|------------|
+| V1 | Basic log counting utility |
+| V2 | Added error extraction functionality |
+| V3 | Added CSV report generation |
+| V4 | Added user input support |
+| V5 | Refactored code and added unit testing support |
 
 ---
 
