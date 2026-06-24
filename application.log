@@ -1,0 +1,6 @@
+INFO Application Started
+INFO User Login
+ERROR Database Connection Failed
+WARNING Low Memory
+ERROR Timeout Occurred
+INFO User Logout
