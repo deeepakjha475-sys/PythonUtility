@@ -95,6 +95,36 @@ ERROR,2
 
 ---
 
+### Version 4 - User Input Support
+
+File:
+
+log_analyzer_v4.py
+
+Additional Features:
+- Accepts log file name from the user at runtime
+- Eliminates hardcoded file dependency
+- Improves reusability and flexibility
+- Supports analysis of different log files without code changes
+
+Sample Execution:
+
+python log_analyzer_v4.py
+
+Sample Input:
+
+application.log
+
+Sample Output:
+
+===== Log Analysis Report =====
+Total Records : 6
+INFO Count    : 3
+WARNING Count : 1
+ERROR Count   : 2
+
+CSV report generated successfully
+
 ## Execution Steps
 
 Run Version 1:
@@ -108,6 +138,9 @@ python log_analyzer_upgraded.py
 Run Version 3:
 
 python log_analyzer_v3.py
+
+Run Version 4:
+python log_analyzer_v4.py
 
 ---
 
