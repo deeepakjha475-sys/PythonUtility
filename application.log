@@ -2,5 +2,6 @@ INFO Application Started
 INFO User Login
 ERROR Database Connection Failed
 WARNING Low Memory
-ERROR Timeout Occurred
+ERROR Database Connection Failed
 INFO User Logout
+ERROR Database Connection Failed

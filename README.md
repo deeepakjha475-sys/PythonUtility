@@ -127,29 +127,17 @@ CSV report generated successfully
 
 ---
 
-### Version 5 - Refactored Log Analyzer with Unit Testing Support
+### Version 5 - Most Common Error Analysis
 
 File:
 
 log_analyzer_v5.py
 
 Additional Features:
-- Refactored logic into reusable function
-- Improved code maintainability
-- Supports automated testing
-- Follows Python best practices
-
-Sample Function:
-
-analyze_log("application.log")
-
-Returns:
-(3, 1, 2)
-
-Where:
-- INFO Count = 3
-- WARNING Count = 1
-- ERROR Count = 2
+- Identifies the most frequently occurring error
+- Displays occurrence count
+- Helps identify recurring production issues
+- Includes unit testing for validation
 
 ## Execution Steps
 
@@ -214,7 +202,7 @@ Benefits:
 | V2 | Added error extraction functionality |
 | V3 | Added CSV report generation |
 | V4 | Added user input support |
-| V5 | Refactored code and added unit testing support |
+| V5 | Added most common error identification and unit testing |
 
 ---
 
